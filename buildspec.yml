@@ -1,0 +1,6 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - aws s3 cp index.html s3://luit-red-jan-2024-cicd-beta --acl public-read
